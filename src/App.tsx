@@ -1,9 +1,10 @@
 import './App.css'
+import Lesson06 from "./lessons/Lesson06/Lesson06"
 
 function App() {
   return (
     <div className='app'>
-      Hello TS
+      <Lesson06/>
     </div>
   )
 }
