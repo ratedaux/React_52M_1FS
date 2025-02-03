@@ -1,4 +1,4 @@
-import Button from "components/Button/Button"
+import Button from "../../components/Button/Button"
 import { Title, UsersPage } from "./styles"
 
 function Users() {
