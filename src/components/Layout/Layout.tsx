@@ -43,6 +43,13 @@ function Layout({ children }: LayoutProps) {
             }>
             Clients
           </StyledNavLink>
+          <StyledNavLink
+            to='/lesson14'
+            style={
+              ({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })
+            }>
+            Lesson 14
+          </StyledNavLink>
         </NavContainer>
       </Header>
       <Main>{children}</Main>
