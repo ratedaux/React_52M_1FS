@@ -6,6 +6,12 @@ import GlobalStyles from './styles/GlobalStyles'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Users from './pages/Users/Users'
+
+import Clients from './pages/Clients/Clients'
+import Apple from './pages/Clients/components/Apple/Apple'
+import Huawei from './pages/Clients/components/Huawei/Huawei'
+import User from './pages/Users/components/User/User'
+import Nokia from './pages/Clients/components/Nokia/Nokia'
 // import Homework10 from "./homeworks/Homework10/Homework10"
 // import Lesson11 from './lessons/Lesson11/Lesson11'
 
@@ -23,6 +29,11 @@ function App() {
          <Route path='/' element={<Home/>}/>
          <Route path='/about' element={<About/>}/>
          <Route path='/users' element={<Users/>}/>
+         <Route path='/users/user' element={<User />} />
+         <Route path='/clients' element={<Clients/>}/>
+         <Route path='/clients/apple' element={<Apple/>}/>
+         <Route path='/clients/huawei' element={<Huawei/>}/>
+         <Route path='/clients/nokia' element={<Nokia/>}/>
         </Routes>
       </Layout>
     
