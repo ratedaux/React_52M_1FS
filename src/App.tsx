@@ -12,6 +12,7 @@ import Apple from './pages/Clients/components/Apple/Apple'
 import Huawei from './pages/Clients/components/Huawei/Huawei'
 import User from './pages/Users/components/User/User'
 import Nokia from './pages/Clients/components/Nokia/Nokia'
+import Lesson14 from './lessons/Lesson14/Lesson14/Lesson14'
 // import Homework10 from "./homeworks/Homework10/Homework10"
 // import Lesson11 from './lessons/Lesson11/Lesson11'
 
@@ -34,6 +35,7 @@ function App() {
          <Route path='/clients/apple' element={<Apple/>}/>
          <Route path='/clients/huawei' element={<Huawei/>}/>
          <Route path='/clients/nokia' element={<Nokia/>}/>
+         <Route path='/lesson14' element={<Lesson14/>}/>
         </Routes>
       </Layout>
     
